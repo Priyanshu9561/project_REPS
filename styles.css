@@ -12,8 +12,8 @@
   --border-color: rgba(255, 255, 255, 0.08);
   --border-focus: rgba(204, 255, 0, 0.5);
 
-  --accent-lime: #CCFF00;
-  --accent-lime-glow: rgba(204, 255, 0, 0.25);
+  --accent-lime: #7FFFD4;
+  --accent-lime-glow: rgba(127, 255, 212, 0.25);
   --accent-cyan: #00F0FF;
   --accent-cyan-glow: rgba(0, 240, 255, 0.25);
   --accent-coral: #FF4757;
@@ -351,15 +351,15 @@ body {
 }
 
 .btn-primary {
-  background: var(--accent-lime);
+  background: #7FFFD4;
   color: #0B0E14;
-  box-shadow: 0 0 16px var(--accent-lime-glow);
+  box-shadow: 0 0 16px rgba(127, 255, 212, 0.30);
 }
 
 .btn-primary:hover {
-  background: #d4ff1a;
+  background: #5ef5c0;
   transform: translateY(-1px);
-  box-shadow: 0 0 24px var(--accent-lime-glow);
+  box-shadow: 0 0 28px rgba(127, 255, 212, 0.45);
 }
 
 .btn-secondary {
@@ -380,14 +380,14 @@ body {
 }
 
 .btn-outline:hover {
-  border-color: var(--accent-lime);
-  color: var(--accent-lime);
+  border-color: #7FFFD4;
+  color: #7FFFD4;
 }
 
 .btn-outline.active {
-  background: rgba(204, 255, 0, 0.1);
-  border-color: var(--accent-lime);
-  color: var(--accent-lime);
+  background: rgba(127, 255, 212, 0.1);
+  border-color: #7FFFD4;
+  color: #7FFFD4;
 }
 
 .btn-ghost {
